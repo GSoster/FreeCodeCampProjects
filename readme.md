@@ -1,0 +1,2 @@
+This repository hold my projects during the FreeCodeCamp course.
+I'll update the readme with images of the current version of each project and give a basic description of each one and the techstack used.
