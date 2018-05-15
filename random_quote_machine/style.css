@@ -1,0 +1,98 @@
+
+body{
+    background-color: black;
+    background: url("http://videosportal.senacrs.com.br/bussola/assets/images/estrelas.png") left top #040213;
+  }
+  ball{
+    width: 100%;
+    height: 100%;
+  }
+  .quoteHolder{  
+    max-width:30%;
+    max-height: 50%;
+    margin: 20%;
+    margin-top: 15%;   
+  }
+  #quoteBox{
+    text-align: center;
+    padding-top: 5%;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 20%;
+  }
+  
+  #theQuote{  
+    font-size: 20px;
+  }
+  #theAuthor{  
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  
+  /**/
+  
+  .ball::after{  
+    z-index: -1;
+    content: "";  
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;  
+    box-shadow:
+      /*parte de baixo*/
+      200px 200px 0 -30px white,
+      100px 300px 0 -30px white,
+      200px 370px 0 -30px white,
+      300px 370px 0 -30px white,
+      400px 370px 0 -30px white,
+      500px 370px 0 -30px white,
+      600px 370px 0 -30px white,
+      700px 370px 0 -30px white,
+      800px 370px 0 -30px white,
+      910px 340px 0 -30px white,
+      930px 270px 0 -30px white,
+      /*parte de cima*/
+      910px 220px 0 -40px white,
+      810px 160px 0 -40px white,
+      710px 160px 0 -30px white,
+      610px 160px 0 -30px white,
+      510px 160px 0 -30px white,
+      410px 160px 0 -30px white,
+      310px 160px 0 -30px white,
+      210px 160px 0 -30px white,
+      110px 190px 0 -30px white,
+      /*dentro*/
+      210px 250px 0 -30px white,
+      310px 250px 0 -30px white,
+      410px 250px 0 -30px white,
+      510px 250px 0 -30px white,
+      610px 250px 0 -30px white,
+      710px 250px 0 -30px white,
+      810px 250px 0 -30px white,
+      /*small balls */
+      880px 490px 0 -70px white,
+      970px 560px 0 -70px white;
+      
+  }
+  
+  
+  #btnNewQuote{  
+    text-align: center;
+    width: 85px;
+    cursor: pointer;
+    height: 28px; 
+    margim: 0;
+    padding: 0;  
+    float: right;
+    /*display: inline-block;*/
+    background: #1b95e0 no-repeat;
+    border: none;
+    border-radius: 5%;
+    font-style: italic;
+    font-weight: 500;
+    color: #fff;  
+  }
