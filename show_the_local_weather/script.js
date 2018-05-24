@@ -3,7 +3,7 @@ const endpoint = 'https://fcc-weather-api.glitch.me/api/current?';
 if (navigator.geolocation)
    position = navigator.geolocation.getCurrentPosition(fetchInfoAtPosition);
 else
-  console.log("doesn't have navigator");
+  console.log("doesn't have navigator"); //change later for some real message
 
 
 
