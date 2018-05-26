@@ -7,3 +7,5 @@ Assignment: Fulfill the below user stories. Use whichever libraries or APIs you 
 **User Story**: I can press a button to tweet out a quote.  
 Result:  
 ![quotemachine](https://user-images.githubusercontent.com/6067175/40034425-4567f610-57d3-11e8-96b0-35119fa91c03.png)
+
+## Weather App
