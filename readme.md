@@ -10,5 +10,5 @@ Result:
 
 ## Weather App.  
 display pictures of the user location.  
-display effects/filters with rain, snow, etc.  Maybe not
+display effects/filters with rain, snow, etc.
 display symbol that represents the Heather.
