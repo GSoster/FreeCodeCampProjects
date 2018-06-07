@@ -9,6 +9,6 @@ Result:
 ![quotemachine](https://user-images.githubusercontent.com/6067175/40034425-4567f610-57d3-11e8-96b0-35119fa91c03.png)
 
 ## Weather App.  
-display pictures of the user location.  
+display pictures of the user location.  ff
 display effects/filters with rain, snow, etc.
 display symbol that represents the Heather.
